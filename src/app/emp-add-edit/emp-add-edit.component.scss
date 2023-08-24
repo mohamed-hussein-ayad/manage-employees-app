@@ -1,0 +1,19 @@
+mat-form-field {
+  width: 100%;
+}
+
+.container {
+  width: 400px;
+}
+
+.content {
+  padding-top: 10px;
+}
+
+.action {
+  padding: 0 25px 20px;
+  button {
+    display: flex;
+    flex: 1;
+  }
+}

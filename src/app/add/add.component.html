@@ -1,0 +1,26 @@
+<h1 mat-dialog-title>Add Employee</h1>
+<div mat-dialog-content>
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Name</mat-label>
+      <input matInput required type="text" />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Email</mat-label>
+      <input matInput required type="email" />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Address</mat-label>
+      <textarea matInput required type="textarea"></textarea>
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Phone</mat-label>
+      <span matPrefix>+20 &nbsp;</span>
+      <input type="tel" matInput placeholder="109-223-1234" required />
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions class="action-button">
+  <button mat-raised-button color="warn">Cancel</button>
+  <button mat-raised-button color="primary">Add</button>
+</div>
